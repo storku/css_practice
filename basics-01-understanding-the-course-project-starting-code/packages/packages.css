@@ -112,3 +112,31 @@ main {
 .package--highlighted a h2 {
   color: white;
 } */
+
+@media (min-width: 40rem) {
+  main {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1500px) {
+  main {
+    margin: 3rem auto;
+    max-width: 1500px;
+  }
+
+  .package {
+    border-left: solid #0e4f1f 4px;
+  }
+
+  #free {
+    border-right: solid #0e4f1f 4px;
+  }
+
+  #free:hover,
+  #free:active {
+    border-right-color: #ff5454;
+  }
+}
